@@ -5,7 +5,6 @@
   <h1><%= t("contact_us") %></h1>
 
   <div data-hook='contact'>
-    <%= render "shared/error_messages", :target => @message %>
 
     <%= form_for(:message, :url => contact_path) do |f| %>
 
